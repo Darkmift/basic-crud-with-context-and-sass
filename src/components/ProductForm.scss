@@ -1,0 +1,37 @@
+.product-form {
+  padding: 1vmin;
+  border: 2px solid #000;
+  flex: 1;
+  position: relative;
+
+  //ANIMATION
+  -webkit-animation: fadein 0.3s linear forwards;
+  animation: fadein 0.3s linear forwards;
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    input {
+      margin-top: 1vmin;
+      padding: 1vmin;
+      border: 2px solid #000;
+      .input-price {
+        width: 25%;
+      }
+    }
+  }
+
+  .btn-container {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 15px;
+    .submit-btn {
+      background-color: lightgreen;
+    }
+    .cancel-btn {
+      background-color: rgb(207, 103, 55);
+    }
+  }
+}
